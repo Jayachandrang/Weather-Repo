@@ -1,0 +1,31 @@
+/* This css is used for weather info */
+
+.weather__key {
+    color: #f16051;
+    border-bottom: solid 2px rgba(255,255,255,0.06);
+    padding: 20px 0 20px 0;
+    font-weight: 400;
+  }
+  
+  .weather__key:last-child {
+    border: 0;
+  }
+  
+  .weather__value {
+    color: #fff;
+    font-weight: 200;
+  }
+  
+  .weather__error {
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 200;
+  }
+
+  .weather-info {
+    width: 60%;
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 2px;
+  }
